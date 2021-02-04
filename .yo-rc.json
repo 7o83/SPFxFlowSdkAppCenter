@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "packageManager": "npm",
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.11.0",
+    "libraryName": "spfx-flow-sdk",
+    "libraryId": "4396ee71-65d3-4997-8f8f-f1a139f0411a",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

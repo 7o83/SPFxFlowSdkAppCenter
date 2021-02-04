@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-flow-sdk-client-side-solution",
+    "id": "4396ee71-65d3-4997-8f8f-f1a139f0411a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Flow Service",
+        "scope": "User"
+      },
+      {
+        "resource": "Microsoft Flow Service",
+        "scope": "Approvals.Manage.All"
+      },
+      {
+        "resource": "Microsoft Flow Service",
+        "scope": "Flows.Manage.All"
+      },
+      {
+        "resource": "Microsoft Flow Service",
+        "scope": "Flows.Read.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-flow-sdk.sppkg"
+  }
+}

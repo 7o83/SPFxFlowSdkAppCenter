@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-flow-sdk-app-center-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxFlowSdkAppCenter/SpfxFlowSdkAppCenterWebPart.js",
+          "manifest": "./src/webparts/spfxFlowSdkAppCenter/SpfxFlowSdkAppCenterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "MsFlowSdk": {
+      "path": "https://flow.microsoft.com/Content/msflowsdk-1.1.js",
+      "globalName": "MsFlowSdkJs"
+    }
+  },
+  "localizedResources": {
+    "SpfxFlowSdkAppCenterWebPartStrings": "lib/webparts/spfxFlowSdkAppCenter/loc/{locale}.js"
+  }
+}
